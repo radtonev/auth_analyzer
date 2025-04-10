@@ -116,7 +116,7 @@ def print_banner():
     app_name = "Auth.log Recon v1.0"
     tagline = "👁️ Unveiling Hidden Threats in Authentication Logs 🕵️"
     developer = "Developed by: Radostin Tonev"
-    github = "Github: https://github.com/radtonev"
+    github = "Github: https://github.com/radtonev/auth_analyzer"
     email = "Email: radtonev@gmail.com"
     license_info = "License: MIT"
 
@@ -142,7 +142,7 @@ def print_banner():
         separator.center(60),
         "",
         colored_developer.rjust(49),
-        colored_github.rjust(56),
+        colored_github.rjust(70),
         colored_email.rjust(46),
         colored_license_info.rjust(33),
         "",
