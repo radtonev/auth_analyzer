@@ -56,7 +56,7 @@ event_patterns = {
     'group-added-to': r'^(?P<timestamp>\w+\s+\d+\s+\d{2}:\d{2}:\d{2})\s+(?P<hostname>[\w\-]+)\s+(?P<process>\S+)(\[(?P<pid>\d+)\])?:\s+group added to (?P<target>\S+): name=(?P<group>\S+)',
     'group-created': r'^(?P<timestamp>\w+\s+\d+\s+\d{2}:\d{2}:\d{2})\s+(?P<hostname>[\w\-]+)\s+(?P<process>\S+)(\[(?P<pid>\d+)\])?:\s+new group: name=(?P<group>\S+)',
     'chpasswd-non-existing-user': r'^(?P<timestamp>\w+\s+\d+\s+\d{2}:\d{2}:\d{2})\s+(?P<hostname>[\w\-]+)\s+(?P<process>\S+)(\[(?P<pid>\d+)\])?:\s+pam_unix\((?P<service>\S+):(?P<pam_activity>\S+)\): user \"(?P<username>\S+)\" does not exist in /etc/passwd',
-    'user-deleted': r'^(?P<timestamp>\w+\s+\d+\s+\d{2}:\d{2}:\d{2})\s+(?P<hostname>[\w\-]+)\s+(?P<process>\S+)(\[(?P<pid>\d+)\])?:\s+remove user (?P<username>\S+)'
+    'user-deleted': r"^(?P<timestamp>\w+\s+\d+\s+\d{2}:\d{2}:\d{2})\s+(?P<hostname>[\w\-]+)\s+(?P<process>\S+)(\[(?P<pid>\d+)\])?:\s+(delete|remove|removed) user '(?P<username>\S+)'"
 }
 
 # Patterns that I decided to be unnecessary to process after testing the script with large log files

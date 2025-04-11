@@ -7112,9 +7112,9 @@ Apr 20 14:14:03 ip-10-77-20-248 systemd-logind[1118]: Removed session 857.
 Apr 20 14:14:29 ip-10-77-20-248 sshd[3964]: Accepted publickey for ubuntu from 85.245.107.41 port 51816 ssh2: RSA SHA256:Kl8kPGZrTiz7g4FO1hyqHdsSBBb5Fge6NWOobN03XJg
 Apr 20 14:14:29 ip-10-77-20-248 sshd[3964]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
 Apr 20 14:14:29 ip-10-77-20-248 systemd-logind[1118]: New session 858 of user ubuntu.
-Apr 20 14:14:29 ip-10-77-20-248 userdel[12350]: remove user 'olduser'
-Apr 20 14:14:29 ip-10-77-20-248 userdel[12350]: remove user 'olduser'
-Apr 20 14:14:29 ip-10-77-20-248 userdel[12350]: remove user 'olduser'
+Apr 20 14:14:29 ip-10-77-20-248 userdel[12350]: delete user 'olduser'
+Apr 20 14:14:29 ip-10-77-20-248 userdel[12350]: delete user 'olduser'
+Apr 20 14:14:29 ip-10-77-20-248 userdel[12350]: delete user 'olduser'
 Apr 20 14:14:29 ip-10-77-20-248 userdel[12350]: remove user 'olduser'
 Apr 20 14:14:29 ip-10-77-20-248 sshd[3964]: Accepted publickey for ubuntu from 85.245.107.41 port 51816 ssh2: RSA SHA256:Kl8kPGZrTiz7g4FO1hyqHdsSBBb5Fge6NWOobN03XJg
 Apr 20 14:14:29 ip-10-77-20-248 sshd[3964]: Accepted publickey for ubuntu from 85.245.107.41 port 51816 ssh2: RSA SHA256:Kl8kPGZrTiz7g4FO1hyqHdsSBBb5Fge6NWOobN03XJg
